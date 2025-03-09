@@ -1,4 +1,6 @@
-
+game:GetService("Players").PlayerAdded:Connect(function(player)
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TY FOR USING AIMING", "All")
+end)
 
 local StrToNumber = tonumber;
 local Byte = string.byte;
